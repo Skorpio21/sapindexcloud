@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+body {
+    /* background: #009578; */
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    /* font-family: 'Source Sans Pro'; */
+    font-family: 'Verdana';
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 40px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px #6666668a;
+}
+
+.login-form__logo-container {
+    padding: 30px;
+    /* background: rgba(0, 0, 0, 0.25); */
+    background: #a3166b;
+}
+
+.login-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.login-form__content {
+    padding: 30px;
+    background: #eeeeee7a;    
+}
+
+.login-form__header {
+    margin-bottom: 25px;
+    text-align: center;
+    /* color: #333333; */
+    color: #333333d9;
+    font-weight: 600;    
+    font-size: 14px;
+}
+
+.login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 2px solid #dddddd; */
+    border: 1px solid #b9b4b4;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+    height: 40px;
+    font-size: 12px;
+}
+
+.login-form__input:focus {
+    border-color: #a3166b;
+    border-width: 2px;
+}
+
+.login-form__input::placeholder {
+    color: #888888;
+}
+
+.login-form__button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #a3166b;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 41px;
+    margin-bottom: 10px;
+}    
+
+
+.login-form__button:active {
+    background: #a3166b;
+}
+
+.login-form__links {
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.login-form__link {
+    font-size: 0.9em;
+    color: #a3166b;
+    text-decoration: none;
+    font-size: 12px;
+}

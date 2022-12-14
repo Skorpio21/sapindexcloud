@@ -1,0 +1,63 @@
+
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
+.logo-container .logo{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 60px;
+    float: left;
+}
+.logo-container .brand{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80px
+}
+
+.divlogo{
+    text-align: center; 
+    max-width: 360px; 
+    background-color: #a3166b; 
+    border-radius: 12px; 
+    margin: 30px auto; 
+    padding: 0px 0px 10px 0px; 
+    box-shadow: 0px 0px 15px 0px #666;
+}
+
+.divts{
+    text-align: center; 
+    max-width: 360px; 
+    margin: 0 auto;
+}
+
+.ts{
+    font-size: 42px; 
+    color: #a3166b; 
+    text-shadow: 0 0 9px #b3a9b2a8;    
+}
+
+
+
+
+#tf1, #tf2, #tf3, #tf4 {
+    border: 1px solid #a3166b;
+    border-radius: 4px;
+    background-color: rgb(235, 227, 227);
+}
+
+table thead{
+    border: 1px solid #a3166b;
+    border-radius: 4px;
+    background-color: #a3166b; 
+    color:#FFFFFF;
+}
+
+
